@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-image:url(images/pattern-background-desktop.svg);
+}
+.parent{
+    display: flex;
+    position: fixed;
+    border-radius: 10px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    height: 600px;
+    flex-wrap: wrap;
+    width: 350px;
+    margin-left: -175px;
+    margin-top:  -240px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.ill{
+    margin-top:-10px ;
+    margin-left: -10px;
+    width: 370px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+h1{
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    left: 50%;
+    margin-left: -140px;
+    padding: 10px;
+    position: relative;
+    height: fit-content;
+}
+p{
+    margin-top: -50px;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    color: hsl(225deg 26% 73%);
+    height: fit-content;
+}
+/* payment information */
+.music{
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    flex-wrap: nowrap;
+    align-items: center;
+    left: 50%;
+    width: 300px;
+    justify-content: center;
+    position: relative;
+    margin-left: -150px;
+    border-radius: 10px;
+    margin-top: -50px;
+    height: fit-content;
+}
+.plan{
+    position: relative;
+    width: 90px;
+    padding: 5px;
+    margin-top: -25px;
+    font-weight: bold;
+    color: hsl(223, 47%, 23%);
+}
+.mark{
+    height: 48px;
+    width: 48px;
+    padding: 10px;
+    position: relative;
+    margin-left: -30px;
+}
+.price{
+    position: relative;
+    padding: 5px;
+    margin-left: -100px;
+    margin-top: 25px;
+}
+.change{
+    left: 20px;
+    position: relative;
+    text-decoration: underline;
+    color: hsl(260deg 80% 60%);
+    font-weight: bold;
+    top: 20px;
+}
+/* proceed */
+button{
+    border-radius: 10px;
+    border-style: none;
+    background-color: hsl(260deg 80% 60%);
+    color: white;
+    font-weight: bold;
+    position: relative;
+    height: 50px;
+    width: 300px;
+    left: 25px;
+}
+.cancel{
+    color: hsl(223, 47%, 23%);
+    position: relative;
+    font-weight: bold;
+    left: 50%;
+    margin-left: -60px;
+    top: 25px;  
+}
+/* Hover Effects */
+button:hover{
+    cursor: pointer;
+    background-color: rgb(65, 36, 122);
+}
+.cancel:hover{
+    cursor: pointer;
+    color: hsl(222, 53%, 54%);
+}
+.change:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(65, 36, 122);
+}
